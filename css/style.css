@@ -45,3 +45,27 @@ header .btn-danger {
     border-radius: 50px;
     margin-top: 10px;
 }
+
+header span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFF;
+    position: absolute;
+    top: 30%;
+    left: -20px;
+}
+
+header span strong {
+    font-weight: 600;
+}
+
+header .social {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+}
+
+header .social img {
+    max-width: 30px
+}
