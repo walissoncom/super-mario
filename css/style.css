@@ -1,71 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppings:wght@600;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppings:wght@600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 .navbar .navbar-brand .img-fluid {
-    max-width: 150px;
+  max-width: 150px;
 }
 
 .navbar .nav-item .nav-link {
-    font-family: 'Poppings', sans-serif;
-    font-weight: 600;
-    color: #111;
+  font-family: "Poppings", sans-serif;
+  font-weight: 600;
+  color: #111;
 }
 
-.navbar .nav-item img {
-    max-width: 30px;
+.navbar .nav-item i {
+  font-size: 26px;
+  color: #fff;
 }
 
 header {
-    background-image: url("../img/background.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 header h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    font-size: 85px;
-    color: #111;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-size: 85px;
+  color: #111;
 }
 
 header p {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    color: #111;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #111;
 }
 
 header .btn-danger {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    background-color: #F71626;
-    border-color: #F71626;
-    border-radius: 50px;
-    margin-top: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #f71626;
+  border-color: #f71626;
+  border-radius: 50px;
+  margin-top: 10px;
 }
 
 header span {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFF;
-    position: absolute;
-    top: 30%;
-    left: -20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: -20px;
 }
 
 header span strong {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 header .social {
-    position: absolute;
-    bottom: 40px;
-    right: 0;
+  position: absolute;
+  bottom: 40px;
+  right: 0;
 }
 
-header .social img {
-    max-width: 30px
+header .social i {
+  font-size: 30px;
+  color: #fff;
+  margin: 0 20px;
 }
