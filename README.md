@@ -1,6 +1,6 @@
 # Super Mario
 
-Static website created for studying purpose.
+Static website created for studying purposes.
 
 ## Live Demo
 
